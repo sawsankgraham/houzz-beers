@@ -10,7 +10,7 @@
     }
 
     .btn-clear {
-        @apply mr-8 align-middle font-medium text-gray-500;
+        @apply mr-8 align-middle font-normal text-gray-500;
     }
 
     .btn-clear-active {

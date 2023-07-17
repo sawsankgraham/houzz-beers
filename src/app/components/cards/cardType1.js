@@ -32,9 +32,9 @@ export default function CardType1({ item }) {
                 </div>
 
                 <div className="basis-11/12 ml-2">
-                    <h1 className="font-semibold text-xl mb-1 capitalize">{item.name}</h1>
-                    <h3 className="text-yellow-0 font-semibold mb-1">{item.tagline}</h3>
-                    <p className="text-sm line-clamp-2">{item.description}</p>
+                    <h1 className="font-semibold text-xl  capitalize">{item.name}</h1>
+                    <h3 className="text-sm text-yellow-0 font-semibold py-1">{item.tagline}</h3>
+                    <p className="text-xs font-medium line-clamp-2 pt-1">{item.description}</p>
                 </div>
 
             </div >
